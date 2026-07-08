@@ -5,7 +5,7 @@
    SINGLE-VERSION POLICY: bump CACHE on every deploy. On activate the SW
    deletes EVERY other cache it can see, so exactly one version ever
    survives — no stale or half-written (corrupt) copies can linger. */
-const CACHE = 'england-trip-v1';
+const CACHE = 'england-trip-v2';
 const ASSETS = [
   './',
   './index.html',
